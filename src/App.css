@@ -1,13 +1,24 @@
+* {
+    box-sizing: border-box !important;
+    margin: 0;
+    padding: 0;
+}
 .App {
     text-align: center;
-    /* background: url("./blurred.jpeg"); */
+    background-image: url("./assets/blurred.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
 }
 
 /* Slideshow */
 
 .slideshow {
     margin: 0 auto;
-    margin-top: 80px;
+    padding-top: 80px;
     overflow: hidden;
     max-width: 500px;
 }

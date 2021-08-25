@@ -11,20 +11,7 @@ const Slide = ({ name, designation, college, imageUrl }) => {
             <h1>{name}</h1>
             <p class="title">{designation}</p>
             <p>{college}</p>
-            <div style={{ margin: "24px 0" }}>
-                <a href="#">
-                    <i class="fa fa-dribbble"></i>
-                </a>
-                <a href="#">
-                    <i class="fa fa-twitter"></i>
-                </a>
-                <a href="#">
-                    <i class="fa fa-linkedin"></i>
-                </a>
-                <a href="#">
-                    <i class="fa fa-facebook"></i>
-                </a>
-            </div>
+
             <p>
                 <button>Contact</button>
             </p>
